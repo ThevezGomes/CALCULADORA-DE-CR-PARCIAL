@@ -21,8 +21,7 @@ while ciclo == 0:
 #AQUI ELE COLETA AS NOTAS DOS ALUNOS POR DISCIPLINA E CALCULA O CR, CASO ELE NÃO SEJA DE CD OU MAT O PROGRAMA VOLTA PARA ELE DIGITAR CORRETAMENTE
 while ciclo == 0:
     
-    print("Digite exit para sair.")
-    curso = input("Qual o seu curso?(mat/cd) ")
+    curso = input("Qual o seu curso?(mat/cd) Digite exit para sair. ")
 
     if curso == "mat":
         notacalc = float(input("Digite sua nota em Cálculo em uma Variável: ").replace(",", "."))
